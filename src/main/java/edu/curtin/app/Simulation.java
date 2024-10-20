@@ -5,30 +5,55 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import edu.curtin.app.observers.Observer;
+
+
+
 public class Simulation {
     private final Map<String, Town> towns = new HashMap<>();
     private final Map<String, Railway> railways = new HashMap<>();
     private int day = 0;
     private final List<String> messagesReceived = new ArrayList<>();
+    private final List<Observer> observers = new ArrayList<>(); 
+
+    public void addObserver(Observer observer) {
+        observers.add(observer);
+    }
+
+    public void removeObserver(Observer observer) {
+        observers.remove(observer);
+    }
+
+    private void notifyObservers(String message) {
+        for (Observer observer : observers) {
+            observer.update(message);
+        }
+    }
 
     public void processTownMessage(String townName, int population) {
         Town town = towns.getOrDefault(townName, new Town(townName, population));
         town.setPopulation(population);
         towns.put(townName, town);
-        messagesReceived.add("town-population " + townName + " " + population);
+        String message = "town-population " + townName + " " + population;
+        messagesReceived.add(message);
+        notifyObservers(message); 
     }
 
     public void processRailwayConstruction(String townA, String townB) {
         Railway railway = new Railway(towns.get(townA), towns.get(townB));
         railways.put(townA + "-" + townB, railway);
-        messagesReceived.add("railway-construction " + townA + " " + townB);
+        String message = "railway-construction " + townA + " " + townB;
+        messagesReceived.add(message);
+        notifyObservers(message); 
     }
 
     public void processRailwayDuplication(String townA, String townB) {
         Railway railway = railways.get(townA + "-" + townB);
         if (railway != null && !railway.isDualTrack()) {
             railway.upgradeToDualTrack();
-            messagesReceived.add("railway-duplication " + townA + " " + townB);
+            String message = "railway-duplication " + townA + " " + townB;
+            messagesReceived.add(message);
+            notifyObservers(message);
         }
     }
 

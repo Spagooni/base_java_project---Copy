@@ -1,34 +1,8 @@
 graph Towns {
     Fratforth
-    Sutton_Blackhythe
-    Bexhull
     Wetchchurch
-    Newton_Rufcarden
-    Gloskirk
-    Sopbarrow
-    Great_Mudmond
     Noston
-    Greater_Parsey
-    Market_Radwych
-    Fowlkirk
-    Rupbridge
-    Saledale
-    Further_Hazelhull
-    Saledale -- Newton_Rufcarden
-    Newton_Rufcarden -- Wetchchurch [color="black:black"]
-    Great_Mudmond -- Greater_Parsey
-    Noston -- Wetchchurch [color="black:black"]
-    Bexhull -- Market_Radwych
-    Sutton_Blackhythe -- Gloskirk
-    Fratforth -- Newton_Rufcarden
-    Fowlkirk -- Noston
-    Newton_Rufcarden -- Noston
     Fratforth -- Wetchchurch
-    Bexhull -- Further_Hazelhull [style="dashed"]
-    Fowlkirk -- Further_Hazelhull
-    Fratforth -- Noston [color="black:black"]
-    Market_Radwych -- Newton_Rufcarden
-    Fowlkirk -- Wetchchurch
-    Fratforth -- Sopbarrow
-    Sutton_Blackhythe -- Great_Mudmond
+    Fratforth -- Noston
+    Noston -- Wetchchurch
 }

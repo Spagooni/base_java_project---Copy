@@ -10,12 +10,14 @@ public class Railway {
     private boolean isDirectionAToB; 
     private int daysToComplete; 
     private int daysToUpgrade;
+    private RailwayState state; 
 
     public Railway(Town townA, Town townB) {
         this.townA = townA;
         this.townB = townB;
         this.daysToComplete = 5;
         this.daysToUpgrade = 5;
+        this.state = new IdleState();
     }
 
     public Town getTownA() {
@@ -26,8 +28,16 @@ public class Railway {
         return townB;
     }
 
+    public void setState(RailwayState state) {
+        this.state = state;
+    }
+
+    public RailwayState getState(){
+        return state;
+    }
+
     public boolean isDualTrack() {
-        return isDualTrack;
+        return state instanceof UpgradeState;
     }
 
     public void upgradeToDualTrack() {
@@ -37,12 +47,12 @@ public class Railway {
        return isBuilding;
     }
     public boolean isCompleted() {
-        return isCompleted;
+        return state instanceof IdleState;
     }
 
     public void advanceUpgrade(){
         if(daysToUpgrade > 0 && isUpgrading){
-            System.out.println("Days Remaining to upgrade: " + daysToUpgrade);
+            // System.out.println("Days Remaining to upgrade: " + daysToUpgrade);
             daysToUpgrade--;
         }
         if(daysToUpgrade == 0){
@@ -59,7 +69,7 @@ public class Railway {
 
     public void advanceConstruction() {
         if(daysToComplete > 0){
-            System.out.println("Days Remaining to build: " + daysToComplete);
+            // System.out.println("Days Remaining to build: " + daysToComplete);
             daysToComplete--;
             isBuilding = true;
         }

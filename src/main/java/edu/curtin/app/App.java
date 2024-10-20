@@ -1,10 +1,14 @@
 package edu.curtin.app;
+import edu.curtin.app.observers.ConsoleObserver;
 
 public class App {
     public static void main(String[] args) {
         TownsInput inp = new TownsInput(2024);
         inp.setErrorProbability(0.0);
         Simulation sim = new Simulation();
+
+        ConsoleObserver consoleObserver = new ConsoleObserver();
+        sim.addObserver(consoleObserver);
 
         try {
             while (System.in.available() == 0) {
