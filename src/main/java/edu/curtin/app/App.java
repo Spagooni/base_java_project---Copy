@@ -14,7 +14,8 @@ public class App {
             while (System.in.available() == 0) {
                 String msg = inp.nextMessage();
                 while (msg != null) {
-                    processMessage(sim, msg);
+                    ProcessFactory.processMessage(sim, msg);
+                    //processMessage(sim, msg);
                     msg = inp.nextMessage();
                 }
                 sim.simulateDay();
@@ -23,25 +24,6 @@ public class App {
             }
         } catch (Exception e) {
             e.printStackTrace();
-        }
-    }
-
-    private static void processMessage(Simulation sim, String msg) {
-        String[] parts = msg.split(" ");
-        if (parts.length != 3) return; 
-
-        String type = parts[0];
-        String townA = parts[1];
-        String thirdPart = parts[2];
-
-        switch (type) {
-            case "town-founding", "town-population" -> {
-                int population = Integer.parseInt(thirdPart);
-                sim.processTownMessage(townA, population);
-            }
-            case "railway-construction" -> sim.processRailwayConstruction(townA, thirdPart);
-            case "railway-duplication" -> sim.processRailwayDuplication(townA, thirdPart);
-            default -> System.out.println("Invalid message type: " + type);
         }
     }
 }

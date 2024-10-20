@@ -10,14 +10,12 @@ public class Railway {
     private boolean isDirectionAToB; 
     private int daysToComplete; 
     private int daysToUpgrade;
-    private RailwayState state; 
 
     public Railway(Town townA, Town townB) {
         this.townA = townA;
         this.townB = townB;
         this.daysToComplete = 5;
         this.daysToUpgrade = 5;
-        this.state = new IdleState();
     }
 
     public Town getTownA() {
@@ -28,16 +26,8 @@ public class Railway {
         return townB;
     }
 
-    public void setState(RailwayState state) {
-        this.state = state;
-    }
-
-    public RailwayState getState(){
-        return state;
-    }
-
     public boolean isDualTrack() {
-        return state instanceof UpgradeState;
+        return isDualTrack;
     }
 
     public void upgradeToDualTrack() {
@@ -47,7 +37,7 @@ public class Railway {
        return isBuilding;
     }
     public boolean isCompleted() {
-        return state instanceof IdleState;
+        return isCompleted;
     }
 
     public void advanceUpgrade(){

@@ -1,11 +1,11 @@
 package edu.curtin.app;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import edu.curtin.app.observers.Observer;
+
 
 
 
@@ -16,6 +16,18 @@ public class Simulation {
     private final List<String> messagesReceived = new ArrayList<>();
     private final List<Observer> observers = new ArrayList<>(); 
 
+    public Map<String, Town> getTowns() {
+        return towns;
+    }
+
+    public Map<String, Railway> getRailways() {
+        return railways;
+    }
+
+    public List<String> getMessagesReceived() {
+        return messagesReceived;
+    }
+
     public void addObserver(Observer observer) {
         observers.add(observer);
     }
@@ -24,36 +36,9 @@ public class Simulation {
         observers.remove(observer);
     }
 
-    private void notifyObservers(String message) {
+    public void notifyObservers(String message) {
         for (Observer observer : observers) {
             observer.update(message);
-        }
-    }
-
-    public void processTownMessage(String townName, int population) {
-        Town town = towns.getOrDefault(townName, new Town(townName, population));
-        town.setPopulation(population);
-        towns.put(townName, town);
-        String message = "town-population " + townName + " " + population;
-        messagesReceived.add(message);
-        notifyObservers(message); 
-    }
-
-    public void processRailwayConstruction(String townA, String townB) {
-        Railway railway = new Railway(towns.get(townA), towns.get(townB));
-        railways.put(townA + "-" + townB, railway);
-        String message = "railway-construction " + townA + " " + townB;
-        messagesReceived.add(message);
-        notifyObservers(message); 
-    }
-
-    public void processRailwayDuplication(String townA, String townB) {
-        Railway railway = railways.get(townA + "-" + townB);
-        if (railway != null && !railway.isDualTrack()) {
-            railway.upgradeToDualTrack();
-            String message = "railway-duplication " + townA + " " + townB;
-            messagesReceived.add(message);
-            notifyObservers(message);
         }
     }
 
