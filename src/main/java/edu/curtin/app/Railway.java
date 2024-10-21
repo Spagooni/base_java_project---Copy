@@ -45,7 +45,7 @@ public class Railway {
             // System.out.println("Days Remaining to upgrade: " + daysToUpgrade);
             daysToUpgrade--;
         }
-        if(daysToUpgrade == 0){
+        else if(daysToUpgrade == 0){
             this.isDualTrack = true;
             townA.incrementDualTrackRailways();
             townB.incrementDualTrackRailways();
@@ -63,7 +63,7 @@ public class Railway {
             daysToComplete--;
             isBuilding = true;
         }
-        if(daysToComplete == 0){
+        else if(daysToComplete == 0){
             this.isCompleted = true;
             townA.incrementSingleTrackRailways();
             townB.incrementSingleTrackRailways();

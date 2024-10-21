@@ -1,6 +1,10 @@
-package edu.curtin.app;
-
+package edu.curtin.app.Factory;
 import java.util.Map;
+
+import edu.curtin.app.Railway;
+import edu.curtin.app.Simulation;
+import edu.curtin.app.Town;
+
 
 public class RailwayConstructionProcess implements Process {
     @Override
@@ -14,22 +18,4 @@ public class RailwayConstructionProcess implements Process {
         sim.getMessagesReceived().add(message);
         sim.notifyObservers(message); 
     }
-
-
-    // @Override
-    // public void addObserver(Observer observer){
-    //     observers.add(observer);
-    // }
-
-    // @Override
-    // public void removeObserver(Observer observer){
-    //     observers.remove(observer);
-    // }
-
-    // @Override
-    // public void notifyObservers(String message){
-    //     for (Observer observer : observers) {
-    //         observer.update(message);
-    //     }
-    // }
 }

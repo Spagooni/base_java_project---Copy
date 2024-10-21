@@ -1,4 +1,5 @@
 package edu.curtin.app;
+import edu.curtin.app.Factory.ProcessFactory;
 import edu.curtin.app.observers.ConsoleObserver;
 
 public class App {

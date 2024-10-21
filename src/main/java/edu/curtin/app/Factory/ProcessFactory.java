@@ -1,4 +1,5 @@
-package edu.curtin.app;
+package edu.curtin.app.Factory;
+import edu.curtin.app.Simulation;
 
 public class ProcessFactory{
     public static void processMessage(Simulation sim, String msg) {
