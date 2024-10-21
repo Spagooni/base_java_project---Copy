@@ -1,11 +1,16 @@
 package edu.curtin.app;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import edu.curtin.app.states.ConstructionState;
 import edu.curtin.app.states.IdleState;
 import edu.curtin.app.states.RailwayState;
 import edu.curtin.app.states.UpgradeState;
 
 public class Railway {
+    private static final Logger logger = Logger.getLogger(Railway.class.getName());
+    
     private final Town townA;
     private final Town townB;
     private boolean isDualTrack = false;
@@ -104,18 +109,23 @@ public class Railway {
     }
 
     public void transportGoods() {
-        if (isCompleted()) { 
-            int capacity = 100; 
+        try {
+            if (isCompleted()) {
+                int capacity = 100;
 
-            if (isDirectionAToB) {
-                int goodsToTransport = Math.min(capacity, townA.getGoodsStockpile());
-                townA.transportGoods(goodsToTransport);
-            } else {
-                int goodsToTransport = Math.min(capacity, townB.getGoodsStockpile());
-                townB.transportGoods(goodsToTransport);
+                if (isDirectionAToB) {
+                    int goodsToTransport = Math.min(capacity, townA.getGoodsStockpile());
+                    townA.transportGoods(goodsToTransport);
+                } else {
+                    int goodsToTransport = Math.min(capacity, townB.getGoodsStockpile());
+                    townB.transportGoods(goodsToTransport);
+                }
+
+                isDirectionAToB = !isDirectionAToB;
+                logger.log(Level.INFO, "Goods transported between {0} and {1}.", new Object[]{townA.getName(), townB.getName()});
             }
-
-            isDirectionAToB = !isDirectionAToB; 
+        } catch (Exception e) {
+            logger.log(Level.SEVERE, "Error transporting goods", e);
         }
     }
 }

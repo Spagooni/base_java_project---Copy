@@ -19,8 +19,6 @@ graph Towns {
     Fratforth -- Noston [color="black:black"]
     Noston -- Wetchchurch [color="black:black"]
     Fowlkirk -- Wetchchurch
-    Bexhull -- Market_Radwych [style="dashed"]
-    Sutton_Blackhythe -- Great_Mudmond [style="dashed"]
     Fratforth -- Newton_Rufcarden
     Fowlkirk -- Noston
 }
