@@ -13,9 +13,11 @@ public class RailwayConstructionProcess implements Process {
         Map<String, Railway> railways = sim.getRailways(); 
         
         Railway railway = new Railway(towns.get(townA), towns.get(townB));
+        railway.initialize();
         railways.put(townA + "-" + townB, railway);
         String message = "railway-construction " + townA + " " + townB;
         sim.getMessagesReceived().add(message);
         sim.notifyObservers(message); 
+
     }
 }

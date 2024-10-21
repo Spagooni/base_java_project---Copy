@@ -16,7 +16,6 @@ public class App {
                 String msg = inp.nextMessage();
                 while (msg != null) {
                     ProcessFactory.processMessage(sim, msg);
-                    //processMessage(sim, msg);
                     msg = inp.nextMessage();
                 }
                 sim.simulateDay();
