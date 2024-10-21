@@ -11,12 +11,12 @@ public class IdleState extends RailwayState{
 
 
     @Override
-    public void Upgrade(){
+    public void upgrade(){
         
     }
     
     @Override
-    public void Construct(){
+    public void construct(){
 
     }
 }

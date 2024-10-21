@@ -2,6 +2,7 @@ package edu.curtin.app.states;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import edu.curtin.app.Railway;
 import edu.curtin.app.Town;
 
@@ -18,13 +19,13 @@ public abstract class RailwayState {
         this.townB = townB;
     }
 
-    public abstract void Upgrade();
+    public abstract void upgrade(); 
 
-    public abstract void Construct();
+    public abstract void construct();  
 
     protected void logStateChange(String stateName) {
-        logger.log(Level.INFO, "Railway state changed to {0} for railway between {1} and {2}.",
-                new Object[]{stateName, townA.getName(), townB.getName()});
+        logger.log(Level.INFO, () -> String.format("Railway state changed to %s for railway between %s and %s.",
+                stateName, townA.getName(), townB.getName()));  
     }
 
     protected void logError(String message, Exception e) {

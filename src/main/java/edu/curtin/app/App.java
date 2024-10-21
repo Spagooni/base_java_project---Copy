@@ -20,9 +20,10 @@ public class App {
         try {
             logger.info("Simulation started.");
             while (System.in.available() == 0) {
-                String msg = inp.nextMessage();
+                String  msg = inp.nextMessage();
+                final String logMsg = msg;
                 while (msg != null) {
-                    logger.log(Level.INFO, "Processing message: {0}", msg);
+                    logger.log(Level.INFO, () -> "Processing message: " + logMsg);
                     ProcessFactory.processMessage(sim, msg);
                     msg = inp.nextMessage();
                 }
@@ -34,9 +35,10 @@ public class App {
             Thread.currentThread().interrupt(); 
         } catch (IOException e) {
             logger.log(Level.SEVERE, "IO error while checking system input", e);
-        } catch (Exception e) {
-            logger.log(Level.SEVERE, "An unexpected error occurred", e);
-        } finally {
+        } catch (IllegalArgumentException e) {
+            logger.log(Level.SEVERE, () -> "Invalid argument encountered: " + e.getMessage());
+        }
+        finally {
             logger.info("Simulation ended.");
         }
     }

@@ -1,4 +1,5 @@
 package edu.curtin.app.factory;
+
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -16,7 +17,7 @@ public class RailwayConstructionProcess implements Process {
         Map<String, Railway> railways = sim.getRailways();
 
         if (towns.get(townA) == null || towns.get(townB) == null) {
-            logger.log(Level.WARNING, "Invalid towns: {0}, {1} for railway construction.", new Object[]{townA, townB});
+            logger.log(Level.WARNING, () -> String.format("Invalid towns: %s, %s for railway construction.", townA, townB));
             return;
         }
 
@@ -24,9 +25,9 @@ public class RailwayConstructionProcess implements Process {
         railway.initialize();
         railways.put(townA + "-" + townB, railway);
 
+        logger.log(Level.INFO, () -> String.format("Railway constructed between %s and %s.", townA, townB));
+
         String message = "railway-construction " + townA + " " + townB;
-        logger.log(Level.INFO, "Railway constructed between {0} and {1}.", new Object[]{townA, townB});
-        
         sim.getMessagesReceived().add(message);
         sim.notifyObservers(message);
     }
