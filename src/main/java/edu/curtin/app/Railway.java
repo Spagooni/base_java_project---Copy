@@ -97,11 +97,11 @@ public class Railway {
     }
 
     public void advanceUpgrade(){
-        state.Upgrade();
+        state.upgrade();
     }
 
     public void advanceConstruction() {
-        state.Construct();
+        state.construct();
     }
 
     public void setIdleState() {
@@ -109,23 +109,20 @@ public class Railway {
     }
 
     public void transportGoods() {
-        try {
-            if (isCompleted()) {
-                int capacity = 100;
+        if (isCompleted()) {
+            int capacity = 100;
 
-                if (isDirectionAToB) {
-                    int goodsToTransport = Math.min(capacity, townA.getGoodsStockpile());
-                    townA.transportGoods(goodsToTransport);
-                } else {
-                    int goodsToTransport = Math.min(capacity, townB.getGoodsStockpile());
-                    townB.transportGoods(goodsToTransport);
-                }
-
-                isDirectionAToB = !isDirectionAToB;
-                logger.log(Level.INFO, "Goods transported between {0} and {1}.", new Object[]{townA.getName(), townB.getName()});
+            if (isDirectionAToB) {
+                int goodsToTransport = Math.min(capacity, townA.getGoodsStockpile());
+                townA.transportGoods(goodsToTransport);
+            } else {
+                int goodsToTransport = Math.min(capacity, townB.getGoodsStockpile());
+                townB.transportGoods(goodsToTransport);
             }
-        } catch (Exception e) {
-            logger.log(Level.SEVERE, "Error transporting goods", e);
+
+            isDirectionAToB = !isDirectionAToB;
+            logger.log(Level.INFO,() -> String.format("Goods transported between {0} and {1}.", new Object[]{townA.getName(), townB.getName()}));
         }
     }
 }
+

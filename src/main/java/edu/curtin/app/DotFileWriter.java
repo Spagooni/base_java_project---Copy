@@ -20,19 +20,11 @@ public class DotFileWriter {
             for (Railway railway : railways.values()) {
                 Town townA = railway.getTownA();
                 Town townB = railway.getTownB();
-                if (railway.isDualTrack()) {
-                    if (!railway.isCompleted()) {
-                        writer.write("    " + townA.getName() + " -- " + townB.getName() + " [style=\"dashed\",color=\"black:black\"]\n");
-                    } else {
-                        writer.write("    " + townA.getName() + " -- " + townB.getName() + " [color=\"black:black\"]\n");
-                    }
-                } else {
-                    if (!railway.isCompleted()) {
-                        writer.write("    " + townA.getName() + " -- " + townB.getName() + " [style=\"dashed\"]\n");
-                    } else {
-                        writer.write("    " + townA.getName() + " -- " + townB.getName() + "\n");
-                    }
-                }
+                String style = railway.isDualTrack() 
+                    ? (railway.isCompleted() ? "[color=\"black:black\"]" : "[style=\"dashed\",color=\"black:black\"]")
+                    : (railway.isCompleted() ? "" : "[style=\"dashed\"]");
+
+                writer.write("    " + townA.getName() + " -- " + townB.getName() + " " + style + "\n");
             }
 
             writer.write("}\n");

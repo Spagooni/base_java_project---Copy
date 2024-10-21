@@ -7,31 +7,26 @@ public class UpgradeState extends RailwayState {
 
     public UpgradeState(Railway railway, Town townA, Town townB) {
         super(railway, townA, townB);
-        logStateChange("UpgradeState");
     }
 
     @Override
-    public void Upgrade() {
-        try {
-            if (railway.getDaysToUpgrade() > 0 && railway.getIsUpgrading()) {
-                railway.reduceDaysToUpgrade();
-            } else if (railway.getDaysToUpgrade() == 0) {
-                railway.setIsDualTrack(true);
-                townA.incrementDualTrackRailways();
-                townB.incrementDualTrackRailways();
-                townA.decrementSingleTrackRailways();
-                townB.decrementSingleTrackRailways();
-                railway.setIsUpgrading(false);
-                railway.setIdleState();
-                logStateChange("Upgrade complete, switching to IdleState");
-            }
-        } catch (Exception e) {
-            logError("Error during upgrade process", e);
-        }
+    public void upgrade() {
+        if (railway.getDaysToUpgrade() > 0 && railway.getIsUpgrading()) {
+            railway.reduceDaysToUpgrade();
+        } else if (railway.getDaysToUpgrade() == 0) {
+            railway.setIsDualTrack(true);
+            townA.incrementDualTrackRailways();
+            townB.incrementDualTrackRailways();
+            townA.decrementSingleTrackRailways();
+            townB.decrementSingleTrackRailways();
+            railway.setIsUpgrading(false);
+            railway.setIdleState();
+            logStateChange("Upgrade complete, switching to IdleState");
+        } 
     }
 
     @Override
-    public void Construct() {
+    public void construct() {
         logStateChange("Construct called in UpgradeState, but no action.");
     }
 }

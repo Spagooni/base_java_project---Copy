@@ -1,5 +1,23 @@
 graph Towns {
     Fratforth
+    Sutton_Blackhythe
+    Bexhull
     Wetchchurch
+    Newton_Rufcarden
+    Gloskirk
+    Great_Mudmond
     Noston
+    Greater_Parsey
+    Market_Radwych
+    Fowlkirk
+    Saledale
+    Further_Hazelhull
+    Newton_Rufcarden -- Noston 
+    Newton_Rufcarden -- Wetchchurch [color="black:black"]
+    Fratforth -- Wetchchurch 
+    Fratforth -- Noston [color="black:black"]
+    Noston -- Wetchchurch [color="black:black"]
+    Fowlkirk -- Wetchchurch 
+    Fratforth -- Newton_Rufcarden 
+    Fowlkirk -- Noston 
 }

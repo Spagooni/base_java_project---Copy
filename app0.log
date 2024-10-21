@@ -1,30 +1,878 @@
-Oct 21, 2024 12:25:33 PM edu.curtin.app.App main
+Oct 21, 2024 12:58:03 PM edu.curtin.app.App main
 INFO: Simulation started.
-Oct 21, 2024 12:25:34 PM edu.curtin.app.DotFileWriter writeDotFile
+Oct 21, 2024 12:58:03 PM edu.curtin.app.DotFileWriter writeDotFile
 INFO: DOT file successfully written to: simoutput.dot
-Oct 21, 2024 12:25:35 PM edu.curtin.app.App main
+Oct 21, 2024 12:58:05 PM edu.curtin.app.App main
 INFO: Processing message: town-founding Noston 109
-Oct 21, 2024 12:25:35 PM edu.curtin.app.factory.ProcessFactory processMessage
+Oct 21, 2024 12:58:05 PM edu.curtin.app.factory.ProcessFactory processMessage
 INFO: Processing town population/founding message: town-founding Noston 109
-Oct 21, 2024 12:25:35 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+Oct 21, 2024 12:58:05 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
 INFO: Town Noston population updated to 109.
-Oct 21, 2024 12:25:35 PM edu.curtin.app.App main
-INFO: Processing message: town-founding Wetchchurch 781
-Oct 21, 2024 12:25:35 PM edu.curtin.app.factory.ProcessFactory processMessage
+Oct 21, 2024 12:58:05 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Noston 109
+Oct 21, 2024 12:58:05 PM edu.curtin.app.factory.ProcessFactory processMessage
 INFO: Processing town population/founding message: town-founding Wetchchurch 781
-Oct 21, 2024 12:25:35 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+Oct 21, 2024 12:58:05 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
 INFO: Town Wetchchurch population updated to 781.
-Oct 21, 2024 12:25:35 PM edu.curtin.app.DotFileWriter writeDotFile
+Oct 21, 2024 12:58:05 PM edu.curtin.app.DotFileWriter writeDotFile
 INFO: DOT file successfully written to: simoutput.dot
-Oct 21, 2024 12:25:36 PM edu.curtin.app.App main
+Oct 21, 2024 12:58:06 PM edu.curtin.app.App main
 INFO: Processing message: town-founding Fratforth 160
-Oct 21, 2024 12:25:36 PM edu.curtin.app.factory.ProcessFactory processMessage
+Oct 21, 2024 12:58:06 PM edu.curtin.app.factory.ProcessFactory processMessage
 INFO: Processing town population/founding message: town-founding Fratforth 160
-Oct 21, 2024 12:25:36 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+Oct 21, 2024 12:58:06 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
 INFO: Town Fratforth population updated to 160.
-Oct 21, 2024 12:25:36 PM edu.curtin.app.DotFileWriter writeDotFile
+Oct 21, 2024 12:58:06 PM edu.curtin.app.DotFileWriter writeDotFile
 INFO: DOT file successfully written to: simoutput.dot
-Oct 21, 2024 12:25:37 PM edu.curtin.app.DotFileWriter writeDotFile
+Oct 21, 2024 12:58:07 PM edu.curtin.app.DotFileWriter writeDotFile
 INFO: DOT file successfully written to: simoutput.dot
-Oct 21, 2024 12:25:38 PM edu.curtin.app.DotFileWriter writeDotFile
+Oct 21, 2024 12:58:08 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:09 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:10 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:11 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:12 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:13 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:14 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:15 PM edu.curtin.app.App main
+INFO: Processing message: railway-construction Noston Wetchchurch
+Oct 21, 2024 12:58:15 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway construction message: railway-construction Noston Wetchchurch
+Oct 21, 2024 12:58:15 PM edu.curtin.app.factory.RailwayConstructionProcess process
+INFO: Railway constructed between Noston and Wetchchurch.
+Oct 21, 2024 12:58:15 PM edu.curtin.app.App main
+INFO: Processing message: railway-construction Noston Wetchchurch
+Oct 21, 2024 12:58:15 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Wetchchurch 799
+Oct 21, 2024 12:58:15 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Wetchchurch population updated to 799.
+Oct 21, 2024 12:58:15 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:15 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:16 PM edu.curtin.app.App main
+INFO: Processing message: railway-construction Fratforth Noston
+Oct 21, 2024 12:58:16 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway construction message: railway-construction Fratforth Noston
+Oct 21, 2024 12:58:16 PM edu.curtin.app.factory.RailwayConstructionProcess process
+INFO: Railway constructed between Fratforth and Noston.
+Oct 21, 2024 12:58:16 PM edu.curtin.app.App main
+INFO: Processing message: railway-construction Fratforth Noston
+Oct 21, 2024 12:58:16 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway construction message: railway-construction Fratforth Wetchchurch
+Oct 21, 2024 12:58:16 PM edu.curtin.app.factory.RailwayConstructionProcess process
+INFO: Railway constructed between Fratforth and Wetchchurch.
+Oct 21, 2024 12:58:16 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Wetchchurch.
+Oct 21, 2024 12:58:16 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:16 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:16 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:17 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Wetchchurch.
+Oct 21, 2024 12:58:17 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:17 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:17 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:18 PM edu.curtin.app.App main
+INFO: Processing message: railway-duplication Wetchchurch Fratforth
+Oct 21, 2024 12:58:18 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway duplication message: railway-duplication Wetchchurch Fratforth
+Oct 21, 2024 12:58:18 PM edu.curtin.app.factory.RailwayDuplicationProcess process
+WARNING: No railway found between Wetchchurch and Fratforth for duplication.
+Oct 21, 2024 12:58:18 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Wetchchurch.
+Oct 21, 2024 12:58:18 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:18 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:18 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:19 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Wetchchurch.
+Oct 21, 2024 12:58:19 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:19 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:19 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:20 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Wetchchurch.
+Oct 21, 2024 12:58:20 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:20 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construction complete, switching to IdleState for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:20 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:20 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:21 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Newton_Rufcarden 910
+Oct 21, 2024 12:58:21 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Newton_Rufcarden 910
+Oct 21, 2024 12:58:21 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Newton_Rufcarden population updated to 910.
+Oct 21, 2024 12:58:21 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construction complete, switching to IdleState for railway between Fratforth and Wetchchurch.
+Oct 21, 2024 12:58:21 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:21 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construction complete, switching to IdleState for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:21 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:21 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:21 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:22 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:22 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:22 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:22 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:23 PM edu.curtin.app.App main
+INFO: Processing message: town-population Wetchchurch 854
+Oct 21, 2024 12:58:23 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Wetchchurch 854
+Oct 21, 2024 12:58:23 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Wetchchurch population updated to 854.
+Oct 21, 2024 12:58:23 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:23 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:23 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:23 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:24 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:24 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:24 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:24 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:25 PM edu.curtin.app.App main
+INFO: Processing message: town-population Newton_Rufcarden 985
+Oct 21, 2024 12:58:25 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Newton_Rufcarden 985
+Oct 21, 2024 12:58:25 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Newton_Rufcarden population updated to 985.
+Oct 21, 2024 12:58:25 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:25 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:25 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:25 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:26 PM edu.curtin.app.App main
+INFO: Processing message: town-population Newton_Rufcarden 1134
+Oct 21, 2024 12:58:26 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Newton_Rufcarden 1134
+Oct 21, 2024 12:58:26 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Newton_Rufcarden population updated to 1134.
+Oct 21, 2024 12:58:26 PM edu.curtin.app.App main
+INFO: Processing message: town-population Newton_Rufcarden 1134
+Oct 21, 2024 12:58:26 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Noston 101
+Oct 21, 2024 12:58:26 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Noston population updated to 101.
+Oct 21, 2024 12:58:26 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:26 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:26 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:26 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:27 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:27 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:27 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:27 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:28 PM edu.curtin.app.App main
+INFO: Processing message: town-population Wetchchurch 771
+Oct 21, 2024 12:58:28 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Wetchchurch 771
+Oct 21, 2024 12:58:28 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Wetchchurch population updated to 771.
+Oct 21, 2024 12:58:28 PM edu.curtin.app.App main
+INFO: Processing message: town-population Wetchchurch 771
+Oct 21, 2024 12:58:28 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway construction message: railway-construction Newton_Rufcarden Noston
+Oct 21, 2024 12:58:28 PM edu.curtin.app.factory.RailwayConstructionProcess process
+INFO: Railway constructed between Newton_Rufcarden and Noston.
+Oct 21, 2024 12:58:28 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Newton_Rufcarden and Noston.
+Oct 21, 2024 12:58:28 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:28 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:28 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:28 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:29 PM edu.curtin.app.App main
+INFO: Processing message: town-population Noston 109
+Oct 21, 2024 12:58:29 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Noston 109
+Oct 21, 2024 12:58:29 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Noston population updated to 109.
+Oct 21, 2024 12:58:29 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Newton_Rufcarden and Noston.
+Oct 21, 2024 12:58:29 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:29 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:29 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:29 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:30 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Newton_Rufcarden and Noston.
+Oct 21, 2024 12:58:30 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:30 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:30 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:30 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:31 PM edu.curtin.app.App main
+INFO: Processing message: railway-duplication Noston Newton_Rufcarden
+Oct 21, 2024 12:58:31 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway duplication message: railway-duplication Noston Newton_Rufcarden
+Oct 21, 2024 12:58:31 PM edu.curtin.app.factory.RailwayDuplicationProcess process
+WARNING: No railway found between Noston and Newton_Rufcarden for duplication.
+Oct 21, 2024 12:58:31 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Newton_Rufcarden and Noston.
+Oct 21, 2024 12:58:31 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:31 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:31 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:31 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:32 PM edu.curtin.app.App main
+INFO: Processing message: town-population Noston 125
+Oct 21, 2024 12:58:32 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Noston 125
+Oct 21, 2024 12:58:32 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Noston population updated to 125.
+Oct 21, 2024 12:58:32 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Newton_Rufcarden and Noston.
+Oct 21, 2024 12:58:32 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:32 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:32 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:32 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:33 PM edu.curtin.app.App main
+INFO: Processing message: town-population Noston 145
+Oct 21, 2024 12:58:33 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Noston 145
+Oct 21, 2024 12:58:33 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Noston population updated to 145.
+Oct 21, 2024 12:58:33 PM edu.curtin.app.App main
+INFO: Processing message: town-population Noston 145
+Oct 21, 2024 12:58:33 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway construction message: railway-construction Newton_Rufcarden Wetchchurch
+Oct 21, 2024 12:58:33 PM edu.curtin.app.factory.RailwayConstructionProcess process
+INFO: Railway constructed between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:33 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construction complete, switching to IdleState for railway between Newton_Rufcarden and Noston.
+Oct 21, 2024 12:58:33 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:33 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:33 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:33 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:33 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:33 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:34 PM edu.curtin.app.App main
+INFO: Processing message: railway-construction Fratforth Newton_Rufcarden
+Oct 21, 2024 12:58:34 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway construction message: railway-construction Fratforth Newton_Rufcarden
+Oct 21, 2024 12:58:34 PM edu.curtin.app.factory.RailwayConstructionProcess process
+INFO: Railway constructed between Fratforth and Newton_Rufcarden.
+Oct 21, 2024 12:58:34 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:34 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:34 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:34 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:34 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:34 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Newton_Rufcarden.
+Oct 21, 2024 12:58:34 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:35 PM edu.curtin.app.App main
+INFO: Processing message: railway-duplication Noston Wetchchurch
+Oct 21, 2024 12:58:35 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway duplication message: railway-duplication Noston Wetchchurch
+Oct 21, 2024 12:58:35 PM edu.curtin.app.factory.RailwayDuplicationProcess process
+INFO: Railway duplication initiated between Noston and Wetchchurch.
+Oct 21, 2024 12:58:35 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:35 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:35 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:35 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:35 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:35 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:35 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Newton_Rufcarden.
+Oct 21, 2024 12:58:35 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:36 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Fowlkirk 220
+Oct 21, 2024 12:58:36 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Fowlkirk 220
+Oct 21, 2024 12:58:36 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Fowlkirk population updated to 220.
+Oct 21, 2024 12:58:36 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Fowlkirk 220
+Oct 21, 2024 12:58:36 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Fratforth 183
+Oct 21, 2024 12:58:36 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Fratforth population updated to 183.
+Oct 21, 2024 12:58:36 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:36 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:36 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:36 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:36 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:36 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:36 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Newton_Rufcarden.
+Oct 21, 2024 12:58:36 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:37 PM edu.curtin.app.App main
+INFO: Processing message: town-population Noston 133
+Oct 21, 2024 12:58:37 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Noston 133
+Oct 21, 2024 12:58:37 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Noston population updated to 133.
+Oct 21, 2024 12:58:37 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:37 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:37 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:37 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:37 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:37 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:37 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Newton_Rufcarden.
+Oct 21, 2024 12:58:37 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:38 PM edu.curtin.app.App main
+INFO: Processing message: railway-construction Fowlkirk Wetchchurch
+Oct 21, 2024 12:58:38 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway construction message: railway-construction Fowlkirk Wetchchurch
+Oct 21, 2024 12:58:38 PM edu.curtin.app.factory.RailwayConstructionProcess process
+INFO: Railway constructed between Fowlkirk and Wetchchurch.
+Oct 21, 2024 12:58:38 PM edu.curtin.app.App main
+INFO: Processing message: railway-construction Fowlkirk Wetchchurch
+Oct 21, 2024 12:58:38 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Wetchchurch 803
+Oct 21, 2024 12:58:38 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Wetchchurch population updated to 803.
+Oct 21, 2024 12:58:38 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:38 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construction complete, switching to IdleState for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:38 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:38 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:38 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:38 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:38 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:38 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fowlkirk and Wetchchurch.
+Oct 21, 2024 12:58:38 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fratforth and Newton_Rufcarden.
+Oct 21, 2024 12:58:38 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:39 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:39 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:39 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:39 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:39 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:39 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:39 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fowlkirk and Wetchchurch.
+Oct 21, 2024 12:58:39 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construction complete, switching to IdleState for railway between Fratforth and Newton_Rufcarden.
+Oct 21, 2024 12:58:39 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:39 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:40 PM edu.curtin.app.App main
+INFO: Processing message: railway-duplication Fratforth Noston
+Oct 21, 2024 12:58:40 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway duplication message: railway-duplication Fratforth Noston
+Oct 21, 2024 12:58:40 PM edu.curtin.app.factory.RailwayDuplicationProcess process
+INFO: Railway duplication initiated between Fratforth and Noston.
+Oct 21, 2024 12:58:40 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:40 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:40 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:40 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:40 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:40 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:40 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade complete, switching to IdleState for railway between Noston and Wetchchurch.
+Oct 21, 2024 12:58:40 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:40 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fowlkirk and Wetchchurch.
+Oct 21, 2024 12:58:40 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:40 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:41 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:41 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:41 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:41 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:41 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:41 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:41 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fowlkirk and Wetchchurch.
+Oct 21, 2024 12:58:41 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:41 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:42 PM edu.curtin.app.App main
+INFO: Processing message: town-population Wetchchurch 752
+Oct 21, 2024 12:58:42 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Wetchchurch 752
+Oct 21, 2024 12:58:42 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Wetchchurch population updated to 752.
+Oct 21, 2024 12:58:42 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:42 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:42 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:42 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:42 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:42 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:42 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fowlkirk and Wetchchurch.
+Oct 21, 2024 12:58:42 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:42 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:43 PM edu.curtin.app.App main
+INFO: Processing message: railway-construction Fowlkirk Noston
+Oct 21, 2024 12:58:43 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway construction message: railway-construction Fowlkirk Noston
+Oct 21, 2024 12:58:43 PM edu.curtin.app.factory.RailwayConstructionProcess process
+INFO: Railway constructed between Fowlkirk and Noston.
+Oct 21, 2024 12:58:43 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:43 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:43 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:43 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:43 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:43 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:43 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construction complete, switching to IdleState for railway between Fowlkirk and Wetchchurch.
+Oct 21, 2024 12:58:43 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:43 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:43 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fowlkirk and Noston.
+Oct 21, 2024 12:58:43 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:44 PM edu.curtin.app.App main
+INFO: Processing message: town-population Fratforth 188
+Oct 21, 2024 12:58:44 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Fratforth 188
+Oct 21, 2024 12:58:44 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Fratforth population updated to 188.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.App main
+INFO: Processing message: town-population Fratforth 188
+Oct 21, 2024 12:58:44 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Gloskirk 632
+Oct 21, 2024 12:58:44 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Gloskirk population updated to 632.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.App main
+INFO: Processing message: town-population Fratforth 188
+Oct 21, 2024 12:58:44 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Market_Radwych 385
+Oct 21, 2024 12:58:44 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Market_Radwych population updated to 385.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fowlkirk and Noston.
+Oct 21, 2024 12:58:44 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:45 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Saledale 297
+Oct 21, 2024 12:58:45 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Saledale 297
+Oct 21, 2024 12:58:45 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Saledale population updated to 297.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Saledale 297
+Oct 21, 2024 12:58:45 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway duplication message: railway-duplication Newton_Rufcarden Wetchchurch
+Oct 21, 2024 12:58:45 PM edu.curtin.app.factory.RailwayDuplicationProcess process
+INFO: Railway duplication initiated between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade complete, switching to IdleState for railway between Fratforth and Noston.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fowlkirk and Noston.
+Oct 21, 2024 12:58:45 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:46 PM edu.curtin.app.App main
+INFO: Processing message: town-population Fratforth 223
+Oct 21, 2024 12:58:46 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Fratforth 223
+Oct 21, 2024 12:58:46 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Fratforth population updated to 223.
+Oct 21, 2024 12:58:46 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:46 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:46 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:46 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:46 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:46 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:46 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:46 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:46 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fowlkirk and Noston.
+Oct 21, 2024 12:58:46 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:47 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Great_Mudmond 732
+Oct 21, 2024 12:58:47 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Great_Mudmond 732
+Oct 21, 2024 12:58:47 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Great_Mudmond population updated to 732.
+Oct 21, 2024 12:58:47 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Great_Mudmond 732
+Oct 21, 2024 12:58:47 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Fratforth 257
+Oct 21, 2024 12:58:47 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Fratforth population updated to 257.
+Oct 21, 2024 12:58:47 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:47 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:47 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:47 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:47 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:47 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:47 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:47 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:47 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade called in ConstructionState, but no action. for railway between Fowlkirk and Noston.
+Oct 21, 2024 12:58:47 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:48 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Greater_Parsey 220
+Oct 21, 2024 12:58:48 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Greater_Parsey 220
+Oct 21, 2024 12:58:48 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Greater_Parsey population updated to 220.
+Oct 21, 2024 12:58:48 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:48 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:48 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:48 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:48 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:48 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:48 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:48 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:48 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construction complete, switching to IdleState for railway between Fowlkirk and Noston.
+Oct 21, 2024 12:58:48 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:48 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:49 PM edu.curtin.app.App main
+INFO: Processing message: town-population Wetchchurch 693
+Oct 21, 2024 12:58:49 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Wetchchurch 693
+Oct 21, 2024 12:58:49 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Wetchchurch population updated to 693.
+Oct 21, 2024 12:58:49 PM edu.curtin.app.App main
+INFO: Processing message: town-population Wetchchurch 693
+Oct 21, 2024 12:58:49 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Gloskirk 595
+Oct 21, 2024 12:58:49 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Gloskirk population updated to 595.
+Oct 21, 2024 12:58:49 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:49 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:49 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:49 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:49 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:49 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:49 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:49 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:49 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:49 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:50 PM edu.curtin.app.App main
+INFO: Processing message: town-population Newton_Rufcarden 1178
+Oct 21, 2024 12:58:50 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Newton_Rufcarden 1178
+Oct 21, 2024 12:58:50 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Newton_Rufcarden population updated to 1178.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.App main
+INFO: Processing message: town-population Newton_Rufcarden 1178
+Oct 21, 2024 12:58:50 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Sutton_Blackhythe 458
+Oct 21, 2024 12:58:50 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Sutton_Blackhythe population updated to 458.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.App main
+INFO: Processing message: town-population Newton_Rufcarden 1178
+Oct 21, 2024 12:58:50 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Gloskirk 590
+Oct 21, 2024 12:58:50 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Gloskirk population updated to 590.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.App main
+INFO: Processing message: town-population Newton_Rufcarden 1178
+Oct 21, 2024 12:58:50 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing railway duplication message: railway-duplication Noston Fowlkirk
+Oct 21, 2024 12:58:50 PM edu.curtin.app.factory.RailwayDuplicationProcess process
+WARNING: No railway found between Noston and Fowlkirk for duplication.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Construct called in UpgradeState, but no action. for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.states.RailwayState logStateChange
+INFO: Railway state changed to Upgrade complete, switching to IdleState for railway between Newton_Rufcarden and Wetchchurch.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:50 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:51 PM edu.curtin.app.App main
+INFO: Processing message: town-population Greater_Parsey 245
+Oct 21, 2024 12:58:51 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Greater_Parsey 245
+Oct 21, 2024 12:58:51 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Greater_Parsey population updated to 245.
+Oct 21, 2024 12:58:51 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:51 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:51 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:51 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:51 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:51 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:51 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:51 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:51 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:52 PM edu.curtin.app.App main
+INFO: Processing message: town-population Sutton_Blackhythe 508
+Oct 21, 2024 12:58:52 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Sutton_Blackhythe 508
+Oct 21, 2024 12:58:52 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Sutton_Blackhythe population updated to 508.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.App main
+INFO: Processing message: town-population Sutton_Blackhythe 508
+Oct 21, 2024 12:58:52 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Further_Hazelhull 583
+Oct 21, 2024 12:58:52 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Further_Hazelhull population updated to 583.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.App main
+INFO: Processing message: town-population Sutton_Blackhythe 508
+Oct 21, 2024 12:58:52 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Bexhull 187
+Oct 21, 2024 12:58:52 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Bexhull population updated to 187.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.App main
+INFO: Processing message: town-population Sutton_Blackhythe 508
+Oct 21, 2024 12:58:52 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-population Great_Mudmond 845
+Oct 21, 2024 12:58:52 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Great_Mudmond population updated to 845.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:52 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:58:53 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:53 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:53 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:53 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:53 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:53 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:53 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:53 PM edu.curtin.app.Railway transportGoods
+INFO: Goods transported between {0} and {1}.
+Oct 21, 2024 12:58:53 PM edu.curtin.app.DotFileWriter writeDotFile
 INFO: DOT file successfully written to: simoutput.dot
