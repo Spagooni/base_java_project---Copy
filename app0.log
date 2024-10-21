@@ -1,0 +1,30 @@
+Oct 21, 2024 12:25:33 PM edu.curtin.app.App main
+INFO: Simulation started.
+Oct 21, 2024 12:25:34 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:25:35 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Noston 109
+Oct 21, 2024 12:25:35 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Noston 109
+Oct 21, 2024 12:25:35 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Noston population updated to 109.
+Oct 21, 2024 12:25:35 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Wetchchurch 781
+Oct 21, 2024 12:25:35 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Wetchchurch 781
+Oct 21, 2024 12:25:35 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Wetchchurch population updated to 781.
+Oct 21, 2024 12:25:35 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:25:36 PM edu.curtin.app.App main
+INFO: Processing message: town-founding Fratforth 160
+Oct 21, 2024 12:25:36 PM edu.curtin.app.factory.ProcessFactory processMessage
+INFO: Processing town population/founding message: town-founding Fratforth 160
+Oct 21, 2024 12:25:36 PM edu.curtin.app.factory.TownFoundingAndPopProcess process
+INFO: Town Fratforth population updated to 160.
+Oct 21, 2024 12:25:36 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:25:37 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot
+Oct 21, 2024 12:25:38 PM edu.curtin.app.DotFileWriter writeDotFile
+INFO: DOT file successfully written to: simoutput.dot

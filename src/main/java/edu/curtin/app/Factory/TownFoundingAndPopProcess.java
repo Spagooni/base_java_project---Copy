@@ -1,4 +1,4 @@
-package edu.curtin.app.Factory;
+package edu.curtin.app.factory;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -20,12 +20,12 @@ public class TownFoundingAndPopProcess implements Process {
             towns.put(townName, town);
 
             String message = "town-population " + townName + " " + population;
-            logger.log(Level.INFO, "Town {0} population updated to {1}.", new Object[]{townName, population});
+            logger.log(Level.INFO, () -> String.format("Town %s population updated to %d.", townName, population));
 
             sim.getMessagesReceived().add(message);
             sim.notifyObservers(message);
         } catch (NumberFormatException e) {
-            logger.log(Level.SEVERE, "Invalid population format for town {0}: {1}", new Object[]{townName, process});
+            logger.log(Level.SEVERE, () -> String.format("Invalid population format for town %s: %s", townName, process));
         }
     }
 }

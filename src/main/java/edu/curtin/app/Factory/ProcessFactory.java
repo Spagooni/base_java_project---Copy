@@ -1,4 +1,4 @@
-package edu.curtin.app.Factory;
+package edu.curtin.app.factory;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 

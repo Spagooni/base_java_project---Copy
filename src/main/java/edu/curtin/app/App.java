@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import edu.curtin.app.Factory.ProcessFactory;
+import edu.curtin.app.factory.ProcessFactory;
 import edu.curtin.app.observers.ConsoleObserver;
 
 public class App {

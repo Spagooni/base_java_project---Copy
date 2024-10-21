@@ -1,4 +1,4 @@
-package edu.curtin.app.Factory;
+package edu.curtin.app.factory;
 import edu.curtin.app.Simulation;
 
 public interface Process{
